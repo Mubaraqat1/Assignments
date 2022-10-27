@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+}
+div{
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* border-radius: 30px; */
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 250px;
+    height: 70%;
+    color: hsla(0, 0%, 100%, 0.75);
+}    
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 250px;
+    height: 70%;
+    color: hsla(0, 0%, 100%, 0.75);
+}    
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 250px;
+    height: 70%;
+    color: hsla(0, 0%, 100%, 0.75);
+}    
+.top-headings{
+    font-size: 30px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    padding-top: 30px;
+}
+.sedans p{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.suvs p{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.luxury p{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    padding-top: 40px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.sedans button{
+    background-color: hsl(31, 77%, 52%);
+    height: 5vh;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    margin-top: 80px;
+}
+.suvs button{
+    background-color: hsl(184, 100%, 22%);
+    height: 5vh;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    margin-top: 80px;
+}
+.luxury button{
+    background-color: hsl(179, 100%, 13%);
+    height: 5vh;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    margin-top: 80px;
+}
+img{
+    width: 50px;
+    height: 30px;
+}
+.grid-body{
+    background-color: rgb(0, 0, 22);
+    width: 50px;
+
+}
+.grid-main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e';
+}
+.grid-main div{
+    text-align: center;
+    justify-items: center
+    
+}
+.a{
+    background-color: rgb(233, 62, 10);
+    grid-area: a;
+    width: 50px;
+    height: 30px;
+}
+.b{
+    background-color: rgb(230, 149, 43);
+    grid-area: b;
+    width: 50px;
+    height: 30px;
+}
+.c{background-color: green;
+    grid-area: c;
+    width: 50px;
+    height: 30px;
+}
+.d{background-color: rgb(10, 104, 133);
+    grid-area: d;
+    width: 50px;
+    height: 30px;
+}
+.e{background-color: rgb(10, 104, 133);
+    grid-area: e;
+    width: 50px;
+    height: 30px;
+}
